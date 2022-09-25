@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wiremock Test">
+    <test name="Get requests testing">
+        <groups>
+            <run>
+                <include name="Wiremock Test Group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.api.petstore.hooks.SuiteHooks"/>
+            <class name="com.api.petstore.pet.wiremock.get.by.id.GetByIdPositiveTest"/>
+            <class name="com.api.petstore.pet.wiremock.get.by.id.GetPetByNotExistingIdNegativeTest"/>
+            <class name="com.api.petstore.pet.wiremock.get.by.id.GetByNotValidIDNegativeTest"/>
+            <class name="com.api.petstore.pet.wiremock.post.pet.PostNewPetWithAllFieldsPositiveTest"/>
+            <class name="com.api.petstore.pet.wiremock.post.pet.PostNewPetWithRequiredFieldsPositiveTest"/>
+            <class name="com.api.petstore.pet.wiremock.delete.DeleteNotExistingPetByIdNegativeTest"/>
+            <class name="com.api.petstore.pet.wiremock.delete.DeletePetByIdPositiveTest"/>
+            <class name="com.api.petstore.pet.wiremock.delete.DeleteRequestWithEmptyQueryTest"/>
+            <class name="com.api.petstore.pet.wiremock.put.PutNewPetRequestsInfoPositiveTest"/>
+            <class name="com.api.petstore.pet.wiremock.put.PutNewPetInfoWithNullAttributesNegativeTest"/>
+        </classes>
+    </test>
+</suite>

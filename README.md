@@ -1,29 +1,12 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This project is a simple expample of API testing
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* It represent a Framework for testing Petstore open-source swagger API (https://petstore.swagger.io/)
+* My first try in Framework writing and in this project you can find tests for API and tests that use WIREMOCK as an endpoints (bassicaly it also was about practice)
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* All you need is inside the framework, I tried to create it as standalone app. Just open it and run tests
